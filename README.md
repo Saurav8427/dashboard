@@ -1,4 +1,4 @@
-## Visit [Dashboard](https://master--sales-ui-dashboard.netlify.app])
+## Visit [Dashboard](https://master--sales-ui-dashboard.netlify.app)
 > React Dashboard made with Recharts and Bootstrap.
 
 ![Dashboard](/public/layout.png "Dashboard")
