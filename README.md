@@ -1,10 +1,10 @@
 ## Quickstart
 
-#### Run `npm install bootstrap @fortawesome/fontawesome-free recharts` to install required dependencies.
+- Run `npm install bootstrap @fortawesome/fontawesome-free recharts` to install required dependencies.
 
-#### Run `npm start` to run the app in development mode.
+- Run `npm start` to run the app in development mode.
 
-#### Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Development
 
