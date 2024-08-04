@@ -87,7 +87,7 @@
         
     }
     tbody {
-        border-color: #cfd0d5 !important;
+        border-color: #a1a1a1 !important;
     }
     table img, .feedback
     img {
@@ -143,3 +143,15 @@
         color:grey;
         font-size: 10px;
       }
+    
+      @media (max-width: 768px) {
+        .form-control {
+          width: 150px;
+        }
+      }
+      @media (max-width: 480px) {
+        .small-cell {
+            display: none;
+        }
+      }
+      
