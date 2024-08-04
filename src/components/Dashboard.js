@@ -16,7 +16,7 @@ const Dashboard = () => {
         <Sidebar />
         <div className="content flex-grow-1">
           <div className="container-fluid dashboard">
-            <div className="row">
+            <div className="row mb-3">
               <h4>Dashboard</h4>
             </div>
             <Metrics />
