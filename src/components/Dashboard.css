@@ -1,0 +1,190 @@
+    .dashboard .card {
+      background-color: #202028;
+      border: none;
+    }
+
+    select {
+      background-color: #545559;
+      border-radius: 15px;
+      color: #cfd0d5;
+      font-size: 14px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      color: white;
+    }
+
+    .dashboard .card-body {
+      color: #fff;
+    }
+
+    .dashboard .table thead {
+      color: #fff;
+    }
+
+    .dashboard .badge {
+      font-size: 1em;
+      border-radius: 15px;
+    }
+
+    .dashboard .feedback {
+      margin-bottom: 1em;
+    }
+
+    .dashboard .feedback p {
+      margin: 0;
+    }
+
+    .dashboard .progress {
+      height: 20px;
+      margin-top: 15px;
+    }
+
+    .goal-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      color: #cfd0d5;
+    }
+
+    .goal-item h5 {
+      font-weight: 350;
+    }
+
+    .goal-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .goal-icon {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      margin-right: 10px;
+    }
+
+    .goal-arrow {
+      margin-left: auto;
+      /* color: #ffffff; */
+      font-size: 18px;
+    }
+
+    .review {
+      font-size: 0.75em;
+      color: #a1a1a1;
+    }
+
+    table {
+      --bs-table-color: #cfd0d5 !important;
+      --bs-table-bg: #202028 !important;
+      font-size: 0.85em;
+      border-bottom-width: none !important;
+
+    }
+
+    tbody {
+      border-color: #a1a1a1 !important;
+    }
+
+    table img,
+    .feedback img {
+      margin-right: 5px;
+
+    }
+
+    .fa-shopping-cart {
+      background-color: #283466;
+      padding: 10px;
+      border-radius: 10px;
+      color: #4563fb;
+    }
+
+    .fa-truck {
+      background-color: #0e4f41;
+      padding: 10px;
+      border-radius: 10px;
+      color: #00c688;
+    }
+
+    .fa-times-circle {
+      background-color: #603138;
+      padding: 10px;
+      border-radius: 10px;
+      color: #fa5f64;
+    }
+
+    .fa-hand-holding-dollar {
+      background-color: #632849;
+      padding: 10px;
+      border-radius: 10px;
+      color: #e2479e;
+    }
+
+    .pie-chart {
+      /* margin-top: 50px; */
+      /* margin-left: 50px; */
+      position: relative;
+      width: 115px;
+      height: 100px;
+    }
+
+    .pie-chart-label {
+      position: absolute;
+      top: 49%;
+      left: 38%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      text-align: center;
+      color: #cfd0d5;
+    }
+
+    .profit {
+      margin-top: 26.5px;
+    }
+
+    .disclaimer {
+      color: grey;
+      font-size: 10px;
+    }
+
+    .testimonials {
+      min-height: 200px;
+    }
+
+    @media (min-width:768px) and (max-width: 1024px) {
+      .pie-chart {
+        display: none;
+      }
+
+      h7 {
+        font-size: 12px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .form-control {
+        width: 150px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .small-cell {
+        display: none;
+      }
+    }
