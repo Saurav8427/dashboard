@@ -175,7 +175,7 @@ const Dashboard = () => {
                         <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip />
-                        <Bar dataKey="uv" barSize={20} fill="#7096fb" radius={[20, 20, 20, 20]} />
+                        <Bar dataKey="uv" barSize={20} fill="#6b99fa" radius={[20, 20, 20, 20]} />
                         </BarChart>
                     </ResponsiveContainer>
                   </div>
