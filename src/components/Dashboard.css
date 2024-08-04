@@ -160,7 +160,28 @@
     }
 
     .testimonials {
-      min-height: 200px;
+      max-height: 367px; /* Set your desired max height */
+      overflow-y: auto;
+    }
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      /*box-shadow: inset 0 0 5px grey;*/ 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: grey; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a1a1a1; 
     }
 
     @media (min-width:768px) and (max-width: 1024px) {
@@ -180,6 +201,10 @@
     @media (max-width: 768px) {
       .form-control {
         width: 150px;
+      }
+      .testimonials {
+        max-height: none; /* Set your desired max height */
+        overflow-y: auto;
       }
     }
 
