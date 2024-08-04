@@ -1,5 +1,5 @@
 [React Dashboard](https://master--sales-ui-dashboard.netlify.app/])
-    > React Dashboard made with Recharts and Bootstrap.
+> React Dashboard made with Recharts and Bootstrap.
 
 ![Dashboard](/public/layout.png "Dashboard")
 ## Quickstart
