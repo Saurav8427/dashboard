@@ -1,5 +1,6 @@
+[https://master--sales-ui-dashboard.netlify.app/](React Dashboard)
 > React Dashboard made with Recharts and Bootstrap.
-![Dashboard](/dashboard-bootstrap/public//layout.png "Dashboard")
+![Dashboard](/dashboard-bootstrap/public/layout.png "Dashboard")
 ## Quickstart
 
 - Run `npm install bootstrap @fortawesome/fontawesome-free recharts` to install required dependencies.
