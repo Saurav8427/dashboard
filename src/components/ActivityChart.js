@@ -9,28 +9,28 @@ import {
   ResponsiveContainer,
 } from "recharts";
 const data = [
-  { name: 5, uv: 4000 },
-  { name: 9, uv: 3000 },
-  { name: 11, uv: 8000 },
-  { name: 13, uv: 4000 },
-  { name: 15, uv: 5000 },
-  { name: 17, uv: 4000 },
-  { name: 19, uv: 6000 },
-  { name: 21, uv: 15500 },
-  { name: 23, uv: 8000 },
-  { name: 25, uv: 7000 },
-  { name: 27, uv: 6000 },
-  { name: 29, uv: 13000 },
-  { name: 33, uv: 8000 },
-  { name: 35, uv: 7000 },
-  { name: 37, uv: 8000 },
-  { name: 39, uv: 3000 },
-  { name: 41, uv: 4000 },
-  { name: 43, uv: 7000 },
-  { name: 47, uv: 6000 },
-  { name: 49, uv: 3000 },
-  { name: 53, uv: 11000 },
-  { name: 55, uv: 4000 },
+  { Name: 5,  Sales: 4000 },
+  { Name: 9,  Sales: 3000 },
+  { Name: 11, Sales: 8000 },
+  { Name: 13, Sales: 4000 },
+  { Name: 15, Sales: 5000 },
+  { Name: 17, Sales: 4000 },
+  { Name: 19, Sales: 6000 },
+  { Name: 21, Sales: 15500 },
+  { Name: 23, Sales: 8000 },
+  { Name: 25, Sales: 7000 },
+  { Name: 27, Sales: 6000 },
+  { Name: 29, Sales: 13000 },
+  { Name: 33, Sales: 8000 },
+  { Name: 35, Sales: 7000 },
+  { Name: 37, Sales: 8000 },
+  { Name: 39, Sales: 3000 },
+  { Name: 41, Sales: 4000 },
+  { Name: 43, Sales: 7000 },
+  { Name: 47, Sales: 6000 },
+  { Name: 49, Sales: 3000 },
+  { Name: 53, Sales: 11000 },
+  { Name: 55, Sales: 4000 },
 ];
 const ActivityChart = () => {
   const [timeframe, setTimeframe] = useState("Weekly");
@@ -53,11 +53,11 @@ const ActivityChart = () => {
           <ResponsiveContainer width="100%" height={168}>
             <BarChart data={data}>
               <CartesianGrid horizontal={true} vertical={false} opacity={0.5} />
-              <XAxis dataKey="name" />
+              <XAxis dataKey="Name" />
               <YAxis />
               <Tooltip />
               <Bar
-                dataKey="uv"
+                dataKey="Sales"
                 barSize={20}
                 fill="#6b99fa"
                 radius={[20, 20, 20, 20]}
