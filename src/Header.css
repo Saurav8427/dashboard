@@ -54,5 +54,11 @@
     .form-control {
       width: 150px;
     }
+    .fa-clover {
+        font-size:35px;
+    }
+    .navbar-toggler {
+        padding: 1px 6px !important;
+    }
   }
   
